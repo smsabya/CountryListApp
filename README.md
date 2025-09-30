@@ -25,24 +25,6 @@ StateFlow used for reactive UI updates.
 
 The project follows MVVM (Model–View–ViewModel) with repository pattern:
 
-com.example.countries
-│
-├── data
-│   ├── local        # Room Database, DAO, entities
-│   ├── remote       # Retrofit API service, DTOs
-│   └── repository   # CountryRepository (decides API vs DB)
-│
-├── di               # Hilt modules
-│
-├── domain
-│   └── model        # Domain models (Country)
-│
-├── ui
-│   ├── main         # MainActivity
-│   ├── countries    # CountriesFragment, Adapter, ViewModel
-│
-└── util             # Utils (NetworkUtils, Resource, Constants)
-
 🔧 Tech Stack
 
 Kotlin – main language
